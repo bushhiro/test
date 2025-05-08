@@ -1,16 +1,23 @@
-# untitled
+# hospital app
 
-A new Flutter project.
 
-## Getting Started
+1. Установите Flutter
 
-This project is a starting point for a Flutter application.
+Убедитесь, что у вас установлен Flutter SDK (рекомендуется версия **3.19+**):
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+flutter --version
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Если Flutter не установлен:
+➡ https://docs.flutter.dev/get-started/install
+
+git clone https://github.com/bushhiro/test.git
+cd test
+
+flutter pub get
+
+Убедитесь, что в pubspec.yaml подключён JSON-файл:
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/menu.json
