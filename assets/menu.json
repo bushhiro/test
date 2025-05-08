@@ -1,24 +1,10 @@
 {
   "menuItems": [
-    {
-      "icon": "home",
-      "label": "Медицина"
-    },
-    {
-      "icon": "person",
-      "label": "Регистратура"
-    },
-    {
-      "icon": "message",
-      "label": "Финансы"
-    },
-    {
-      "icon": "settings",
-      "label": "Настройки"
-    },
-    {
-      "icon": "info",
-      "label": "О проекте"
-    }
+    { "icon": "home", "label": "Главная" },
+    { "icon": "person", "label": "Профиль" },
+    { "icon": "message", "label": "Сообщения" },
+    { "icon": "settings", "label": "Настройки" },
+    { "icon": "info", "label": "О проекте" },
+    { "icon": "thermometer", "label": "Температура" }
   ]
 }
